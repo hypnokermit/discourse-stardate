@@ -1,0 +1,8 @@
+{
+  "name": "Argo Stardate Button",
+  "component": true,
+  "authors": "hypnokermit",
+  "about_url": "https://github.com/hypnokermit/discourse-stardate/blob/main/about.json",
+  "license_url": "https://github.com/hypnokermit/discourse-stardate/blob/main/LICENSE",
+  "theme_version": "1.0"
+}
