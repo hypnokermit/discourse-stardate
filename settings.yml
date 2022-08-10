@@ -1,4 +1,4 @@
 stardate_icon: 
-  default: 'clock'
+  default: 'satellite'
   type: 'string'
   description: "Use a FontAwesome icon name, without the 'fa-' prefix."
