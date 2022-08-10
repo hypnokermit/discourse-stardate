@@ -24,7 +24,7 @@
     var stardate = 1000 * (earthdate - 2323);
     stardate = Math.round(stardate * 10) / 10;
 	
-    return stardate;
+    return stardate.toFixed(1);
   }
   
   $(document).ready(function() {
