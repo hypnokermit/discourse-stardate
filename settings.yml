@@ -1,4 +1,4 @@
-svg_icons: 
+svg_icon: 
   default: 'calculator'
   type: 'list'
   list_type: 'compact'
