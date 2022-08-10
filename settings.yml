@@ -1,0 +1,5 @@
+svg_icons: 
+  default: 'calculator'
+  type: 'list'
+  list_type: 'compact'
+  description: "Stardate Icon"
