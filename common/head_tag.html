@@ -48,8 +48,8 @@
   return {
       action: "stardate",
       icon: settings.stardate_icon,
-      label: "title_stardate"
-	  perform: function(e) {
+      label: "title_stardate",
+      perform: function(e) {
         return e.addText(getStardate(), "stardate_text");
       }
   };
