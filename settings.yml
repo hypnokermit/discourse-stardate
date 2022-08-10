@@ -1,4 +1,4 @@
 stardate_icon: 
   default: 'calculator'
   type: 'string'
-  description: "Use a FontAwesome icon name, without the "fa-" prefix."
+  description: "Use a FontAwesome icon name, without the 'fa-' prefix."
