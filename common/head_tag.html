@@ -43,4 +43,21 @@
       }
     });
   });
+  
+  api.modifyClass("controller:composer", {
+    actions: {
+      stardate() {
+        this.get("toolbarEvent").addText(getStardate(), "stardate_text");
+      },
+    },
+  });
+  
+  api.addToolbarPopupMenuOptionsCallback((controller) => {
+    return {
+      action: "stardate",
+      icon: settings.stardate_icon,
+      label: "title_stardate"),
+    };
+  });
+  
 </script>
