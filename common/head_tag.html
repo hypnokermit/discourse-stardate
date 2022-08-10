@@ -45,13 +45,18 @@
   });
   
   api.addToolbarPopupMenuOptionsCallback(() => {
-  return {
+    return {
       action: "stardate",
       icon: settings.stardate_icon,
-      label: "title_stardate",
-      actions: function(e) {
-        return e.addText(getStardate(), "stardate_text");
+      label: "title_stardate"
+    };
+  });
+  
+  api.modifyClass("controller:composer", {
+    actions: {
+      stardate() {
+        this.get("toolbarEvent").applyText(getStardate(), "stardate_text");
       }
-  };
-});
+    }
+  });
 </script>
