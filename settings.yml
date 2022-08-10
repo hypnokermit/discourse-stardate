@@ -1,5 +1,4 @@
-svg_icon: 
+stardate_icon: 
   default: 'calculator'
-  type: 'list'
-  list_type: 'compact'
-  description: "Stardate Icon"
+  type: 'string'
+  description: "Use a FontAwesome icon name, without the "fa-" prefix."
